@@ -1,0 +1,14 @@
+{
+  "name": "algorixm",
+  "description": "Algorixm 공식 플러그인: Draft 영상 제작·편집과 Algorixm 워크스페이스",
+  "owner": {
+    "name": "Algorixm",
+    "url": "https://algorixm.com"
+  },
+  "plugins": [
+    {
+      "name": "algorixm",
+      "source": "./plugins/algorixm"
+    }
+  ]
+}

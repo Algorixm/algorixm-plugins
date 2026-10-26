@@ -1,0 +1,25 @@
+{
+  "name": "algorixm",
+  "displayName": "Algorixm",
+  "version": "0.1.0",
+  "description": "Draft 영상 편집·제작과 Algorixm 데이터베이스, 블로그, 화이트보드, 자동화, SNS를 한 번에 다룹니다.",
+  "author": {
+    "name": "Algorixm",
+    "url": "https://algorixm.com"
+  },
+  "homepage": "https://algorixm.com",
+  "repository": "https://github.com/Algorixm/algorixm-plugins",
+  "license": "MIT",
+  "keywords": [
+    "video",
+    "draft",
+    "mcp",
+    "automation"
+  ],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/Algorixm/algorixm-plugins#readme",
+  "supportUrl": "https://algorixm.com",
+  "privacyPolicyUrl": "https://algorixm.com/privacy",
+  "termsOfServiceUrl": "https://algorixm.com/terms",
+  "hooks": "./claude/hooks.json"
+}

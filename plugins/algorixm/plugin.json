@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "algorixm",
+  "version": "0.1.0",
+  "description": "Draft 영상 편집·제작과 Algorixm 데이터베이스, 블로그, 화이트보드, 자동화, SNS를 한 번에 다룹니다.",
+  "author": { "name": "Algorixm", "url": "https://algorixm.com" },
+  "homepage": "https://algorixm.com",
+  "repository": "https://github.com/Algorixm/algorixm-plugins",
+  "license": "MIT",
+  "keywords": ["video", "draft", "mcp", "automation"],
+  "extensions": {
+    "com.openai": {
+      "interface": { "displayName": "Algorixm", "category": "Productivity", "defaultPrompt": "Algorixm으로 30초 세로 숏폼 영상을 만들어줘" }
+    }
+  }
+}

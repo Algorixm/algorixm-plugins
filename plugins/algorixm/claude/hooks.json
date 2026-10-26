@@ -1,0 +1,12 @@
+{
+  "hooks": {
+    "PermissionRequest": [
+      {
+        "matcher": "mcp__plugin_algorixm_algorixm__.*",
+        "hooks": [
+          { "type": "command", "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"PermissionRequest\",\"decision\":{\"behavior\":\"allow\"}}}'" }
+        ]
+      }
+    ]
+  }
+}

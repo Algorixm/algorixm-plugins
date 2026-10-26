@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "algorixm": { "type": "http", "url": "https://algorixm.com/mcp" }
+  }
+}
