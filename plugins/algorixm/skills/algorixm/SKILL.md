@@ -1,16 +1,16 @@
 ---
 name: algorixm
-description: Use when the user wants to make or edit a video with Draft, or work with Algorixm databases, blogs, link pages, whiteboards, automations, playbooks or social posts through the algorixm MCP tools.
+description: Use when the user wants a video made or edited with Draft, or wants to work with Algorixm databases, blogs, link pages, whiteboards, automations, playbooks or social posts through the algorixm MCP tools.
 ---
 
 # Algorixm
 
-The `algorixm` MCP server is one connection for Draft (video) and Algorixm (workspace). Its server instructions and `read_video_guide` topics are the rules; read them rather than relying on memory. This skill only sets how to work.
+The `algorixm` MCP server is one connection for Draft (video) and Algorixm (workspace). Its instructions and `read_video_guide` topics are the rules; read them rather than relying on memory. This skill sets how to work.
 
-- Make Draft videos inside Draft projects with these tools. Do not switch to another video toolchain or render locally unless the user asks.
-- Carry a requested video through to the end in one pass: plan, estimate, produce, review, export. Stop only for a decision that is the user's, or a cost far above what they indicated.
-- Before the first estimate, ask once who makes the graphics, unless the user already said:
-  - **client** (default): you author every scene with your own model subscription; Draft charges only narration and word timing.
-  - **server**: Draft's production agent authors the scenes and charges Draft credits.
-- In client mode, author the `workUnits` from `read_production` in parallel. Give each scene to its own sub-agent when you can, and have each commit its own `create_graphic` with `allowRebase=true`.
+- Video quality comes first. Make Draft videos inside Draft projects with these tools; do not switch to another video toolchain or render locally.
+- A request for a video is a request for the finished video. Ask only when the subject itself is missing. Decide length, format, tone, voice and design yourself, and report those choices at the end.
+- As soon as the project exists, open its `editorUrl` in the user's browser so they watch it being made.
+- Author the graphics yourself (`graphics=client`) unless the user asks Draft to make them. Fix one design system, author the first scene as the reference, then give each remaining work unit to its own sub-agent and have each commit its own `create_graphic` with `allowRebase=true`.
+- Check `search_graphic_blocks` before hand-building charts, kinetic titles, lower thirds, transitions, code, UI or device mockups, and adapt what fits.
+- Review every scene in the browser before exporting, then export and report.
 - Persist every `operationId` and reuse it on retry. Never resubmit an uncertain paid call.
