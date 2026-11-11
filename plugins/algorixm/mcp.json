@@ -4,7 +4,19 @@
     "algorixm": {
       "type": "streamable-http",
       "url": "https://algorixm.com/mcp",
-      "extensions": { "com.openai": { "auth": { "type": "oauth", "client": { "mode": "dcr" } } } }
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "dcr"
+            },
+            "baseScopes": [
+              "email"
+            ]
+          }
+        }
+      }
     }
   }
 }
