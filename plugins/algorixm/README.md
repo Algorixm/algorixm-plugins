@@ -20,7 +20,7 @@ The assistant can return the actual project, page or run link. Saved drafts, que
 | Work | Typical result |
 | --- | --- |
 | Video creation and editing | Editable Draft projects with motion graphics and scene revisions |
-| Export | Render requests, progress and completed output links |
+| Export | Free MP4 exports rendered on this computer (Node 22+, Chrome, FFmpeg), or server renders with progress and output links |
 | Workspace content | Database rows, blog/link-page views and whiteboard updates |
 | Automation | Saved projects, test-run status and authorized activation |
 | Social content | Authorized posts, schedules, comments and messages on connected channels |
